@@ -27,6 +27,14 @@ $(document).ready(function () {
 		}
 	}
 
+  $('.bubbels').append(
+		'<img src="bg-images/' + size + '-left.png" class="bubbels-left"/>'
+	);
+	$('.bubbels').append(
+		'<img src="bg-images/' + size + '-right.png" class="bubbels-right"/>'
+	);
+
+
 });
 
 
