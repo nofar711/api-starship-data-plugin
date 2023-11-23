@@ -1,0 +1,144 @@
+body {
+	background-color: #ededed;
+	height: 100vh;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding-top: 48px;
+}
+
+.badges-wapper {
+	width: 100%;
+	margin-bottom: -65px;
+	position: relative;
+	z-index: 99;
+}
+
+.badges {
+	gap: 65px;
+	display: flex;
+	justify-content: center;
+}
+
+.badges > img {
+	width: 108px;
+}
+
+.hero {
+	width: 100vw;
+	min-height: 348px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e3dbd9;
+	padding: 12px;
+	box-sizing: border-box;
+}
+
+.bubbels {
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	left: 0;
+}
+
+.bubbels-right {
+	right: 10%;
+	position: relative;
+}
+
+.content {
+	gap: 12px;
+	display: grid;
+	z-index: 99;
+}
+
+.content > * {
+	text-align: center;
+	margin: 0;
+}
+
+.content-title {
+	font-size: 52px;
+	font-weight: 600;
+	padding-top: 32px;
+}
+
+.content-description {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.cta {
+	display: flex;
+	justify-content: center;
+	margin-top: 24px !important;
+	gap: 24px;
+}
+
+.cta button {
+	color: #fff;
+	border: 0;
+	padding: 10px 30px;
+	border-radius: 8px;
+	font-family: inherit;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.4px;
+}
+
+.cta button:hover {
+	filter: opacity(0.7);
+	cursor: pointer;
+}
+
+.cta-free button {
+	background-color: #ff176b;
+}
+
+.cta-demo button {
+	background-color: #000;
+}
+
+.no-credit {
+	font-size: 12px;
+	font-weight: 300;
+	margin-top: 6px;
+}
+
+@media (max-width: 767px) {
+	.badges-wapper {
+		margin-bottom: -30px;
+	}
+	.badges {
+		flex-wrap: wrap;
+		gap: 22px;
+	}
+	.badges > img {
+		max-width: 16%;
+	}
+
+	.hero {
+		min-height: 476px;
+	}
+
+	.bubbels-right {
+		right: 0;
+	}
+
+	.content-title {
+		font-size: 38px;
+    padding-top: 0;
+    line-height: 1.2em;
+	}
+
+	.content-description {
+    font-size: 16px;
+	}
+
+	.cta {
+		display: flex;
+		gap: 0;
+		flex-direction: column;
+	}
+}
