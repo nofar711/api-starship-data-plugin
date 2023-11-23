@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
+		<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 		<title>Atera</title>
 	</head>
 	<body>
@@ -21,5 +22,14 @@
 				</div>
 			</div>
 		</div>
+		<script>
+			$(document).ready(function () {
+				var numberOfImages = 8;
+
+				for (var i = 0; i < numberOfImages; i++) {
+					$('.badges').append('<img src="badges/box-' + i + '.svg"/>');
+				}
+			});
+		</script>
 	</body>
 </html>
