@@ -5,14 +5,15 @@ $(document).ready(function () {
 		$('.badges').append('<img src="badges/box-' + i + '.svg"/>');
 	}
 
+	// get screen size
 	var width = $(window).width();
 	var size = getSize(width);
 
 	$(window).resize(function () {
 		width = $(window).width();
 		size = getSize(width);
-    $('.bubbels-left').attr('src', 'bg-images/' +size + '-left.png');
-    $('.bubbels-right').attr('src', 'bg-images/' +size + '-right.png');
+    $('.bubbels-left').attr('src', 'bg-images/' + size + '-left.png');
+    $('.bubbels-right').attr('src', 'bg-images/' + size + '-right.png');
 	});
 
 	function getSize(width) {
@@ -27,6 +28,7 @@ $(document).ready(function () {
 		}
 	}
 
+	// add bg images
   $('.bubbels').append(
 		'<img src="bg-images/' + size + '-left.png" class="bubbels-left"/>'
 	);

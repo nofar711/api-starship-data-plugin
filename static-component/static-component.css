@@ -7,25 +7,27 @@ body {
 }
 
 .badges-wapper {
-	width: 100%;
-	margin-bottom: -65px;
+	width: 85%;
+    margin: auto;
+	margin-bottom: -56px;
 	position: relative;
 	z-index: 99;
 }
 
 .badges {
-	gap: 65px;
+	gap: 4%;
 	display: flex;
 	justify-content: center;
 }
 
 .badges > img {
-	width: 108px;
+	width: 18%;
+	max-width: 108px;
 }
 
 .hero {
 	width: 100vw;
-	min-height: 348px;
+	min-height: 372px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -40,6 +42,11 @@ body {
 	display: flex;
 	justify-content: space-between;
 	left: 0;
+}
+
+.bubbels > img {
+    width: auto;
+    height: 100%;
 }
 
 .bubbels-right {
@@ -85,6 +92,7 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	letter-spacing: 0.4px;
+	width: 100%;
 }
 
 .cta button:hover {
@@ -106,24 +114,30 @@ body {
 	margin-top: 6px;
 }
 
+@media (max-width: 1920px){
+	.bubbels-right {
+		right: 0;
+	}
+
+	.badges-wapper {
+		margin-bottom: -38px;
+	}
+}
+
 @media (max-width: 767px) {
 	.badges-wapper {
-		margin-bottom: -30px;
+		margin-bottom: -48px;
 	}
 	.badges {
 		flex-wrap: wrap;
 		gap: 22px;
 	}
 	.badges > img {
-		max-width: 16%;
+		max-width: 20%;
 	}
 
 	.hero {
 		min-height: 476px;
-	}
-
-	.bubbels-right {
-		right: 0;
 	}
 
 	.content-title {
