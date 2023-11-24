@@ -1,0 +1,59 @@
+.starships-table {
+	width: 100%;
+	margin-top: 20px;
+	border-collapse: collapse;
+	max-width: 70% !important;
+	font-size: 16px;
+}
+
+.starships-table th,
+.starships-table td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	min-width: 200px;
+	font-weight: 100;
+  background-color: transparent!important;
+}
+
+.starships-table th {
+	background-color: #ff176b!important;
+	color: #fff;
+	text-align: center;
+	font-weight: 200;
+	font-size: 28px;
+}
+
+.starships-table tr:hover {
+	background-color: #eae7e7;
+}
+
+.starships-table td:first-child {
+	font-weight: 500;
+}
+
+.starships-table td:not(:first-child) {
+	text-align: center;
+}
+
+.starships-table-title {
+	max-width: 100% !important;
+	width: 100%;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+.starships-wapper {
+	min-width: 100% !important;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 42px 24px;
+	direction: ltr;
+}
+
+.colortext {
+	background: linear-gradient(-90deg, #e5598c 20%, #ff176b 50%, #a2003b 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

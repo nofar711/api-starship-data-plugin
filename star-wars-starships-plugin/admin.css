@@ -1,0 +1,36 @@
+.plugin-title {
+	font-size: 50px !important;
+	color: #ff176b;
+}
+
+.plugin-description {
+	font-size: 18px;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+	margin: 6px 6px 6px 0;
+}
+
+.remove-button {
+	border: 1px solid #ff176b;
+	background-color: transparent;
+	border-radius: 4px;
+	margin-top: 12px;
+	padding: 3px 12px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #ff176b;
+}
+
+.remove-button:hover {
+	background-color: #ffedf3;
+}
+
+#star_wars_starships_save_changes {
+	font-size: 26px;
+	border-radius: 6px;
+	background-color: #ff176b;
+	border: 0;
+	padding: 4px 24px;
+}
