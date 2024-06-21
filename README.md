@@ -19,7 +19,7 @@ This repository contains two home assignment projects:
 1. Download the `star-wars-starships-plugin.zip` file.
 2. Log in to your WordPress admin dashboard.
 3. Navigate to `Plugins` > `Add New`.
-4. Click `Upload Plugin` and select the `starship-plugin.zip` file.
+4. Click `Upload Plugin` and select the `star-wars-starships-plugin.zip` file.
 5. Click `Install Now` and then activate the plugin.
 
 ### Configuration
